@@ -1,8 +1,9 @@
 import React from 'react';
+import './WeatherInfo.css';
 
 const WeatherInfo = ({ weather }) => {
   return (
-    <div>
+    <div className="weather-info">
       <h2>Weather Information</h2>
       <p>City: {weather.city}</p>
       <p>Temperature: {weather.temperature}</p>

@@ -1,0 +1,21 @@
+.weather-form {
+    margin-top: 20px;
+  }
+  
+  .weather-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+  }
+  
+  .weather-form button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+ 
+  

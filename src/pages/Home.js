@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import WeatherForm from '../components/WeatherForm';
 import WeatherInfo from '../components/WeatherInfo';
 import { getWeatherData } from '../services/WeatherService';
+import './Home.css';
 
 const Home = () => {
   const [weather, setWeather] = useState(null);
@@ -20,14 +21,15 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <WeatherForm onSearch={handleSearch} />
-      {loading ? (
-        <p>Loading...</p>
-      ) : weather ? (
-        <WeatherInfo weather={weather} />
-      ) : null}
-    </div>
+    <div className="home-container"> 
+  
+    <WeatherForm onSearch={handleSearch} />
+    {loading ? (
+      <p>Loading...</p>
+    ) : weather ? (
+      <WeatherInfo weather={weather} />
+    ) : null}
+  </div>
   );
 };
 

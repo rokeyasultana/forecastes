@@ -1,0 +1,23 @@
+.weather-info {
+    background-color: #000000;
+    border: 1px solid #e41e1e;
+    border-radius: 4px;
+    padding: 10px;
+    margin:50px auto;
+    width: 50%;
+    
+  }
+  
+  .weather-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background: none;
+    color: aliceblue;
+  }
+  
+  .weather-info p {
+  background: none;
+  color: aliceblue;
+  }
+  
+  
